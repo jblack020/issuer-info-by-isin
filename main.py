@@ -147,7 +147,7 @@ if __name__ == "__main__":
         
         # Save the merged dataframe to a uniquely named CSV file
         output_path = build_unique_merged_path(RESULTS_FOLDER, excel_file, merged)
-        merged.to_csv(output_path, index=False)
+        merged.to_excel(output_path)
         
         print(style(f"Merged dataframe saved to '{output_path}'", Ansi.GREEN))
         
