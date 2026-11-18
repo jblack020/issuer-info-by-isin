@@ -1,0 +1,22 @@
+# secrets, dependencies, build output (added before pushing local changes)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+client_secret*.json
+*cookies*.txt
+node_modules/
+.venv/
+venv/
+__pycache__/
+.next/
+dist/
+build/
+.DS_Store
+.claude/
+.vscode/
+*.log
+*.sqlite
+*.pyc

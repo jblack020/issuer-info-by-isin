@@ -15,6 +15,7 @@ TEMP_FOLDER = 'temp'
 # Simple ANSI styling helpers
 class Ansi:
     RESET = "\033[0m"
+    RED = "\033[31m"
     BOLD = "\033[1m"
     CYAN = "\033[36m"
     GRAY = "\033[90m"
